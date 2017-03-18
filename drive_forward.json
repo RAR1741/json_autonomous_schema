@@ -7,7 +7,7 @@
       "heading": 0,
       "speed": {
         "unit": "feet/second",
-        "amount": 1.0,
+        "amount": 1.0
       },
       "distance": {
         "unit": "feet",
@@ -19,7 +19,7 @@
       "heading": 0,
       "speed": {
         "unit": "feet/second",
-        "amount": 0,
+        "amount": 0
       },
       "duration": {
         "unit": "seconds",

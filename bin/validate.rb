@@ -44,6 +44,10 @@ def main
   errs = JSON::Validator.fully_validate(options[:schema], options[:filename])
 
   pp errs
+
+  if errs.empty?
+    puts "Yay! No errors"
+  end
 end
 
 main

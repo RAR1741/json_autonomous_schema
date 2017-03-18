@@ -1,3 +1,33 @@
 {
-
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "JSON Autonomous",
+  "description": "Program for Autonomous period",
+  "type": "object",
+  "required": ["name", "description", "steps"],
+  "properties": {
+  },
+  "definitions": {
+    "unitamount": {
+      "type": "object",
+      "properties": {
+        "unit": {
+          "type": {
+            "enum": [
+              "Seconds",
+              "Milliseconds",
+              "EncoderTicks",
+              "Rotations",
+              "Inches",
+              "Feet",
+              "Degrees",
+              "Invalid"
+            ]
+          }
+        },
+        "amount": {
+          "type": "float"
+        }
+      }
+    }
+  }
 }
